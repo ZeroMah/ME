@@ -1,1 +1,5 @@
-⚡一键连刷邀请⚡=HTTPS,a1.ap.fastqvpn.com,29980, 366034536770830336,"40c8a06b-62c0-47fa-aaf6-22e078fc1e38",
+⚡一键连刷邀请⚡=HTTPS,a1.ap.fastqvpn.com,29980, 366620059986034688,"c76bf419-88e1-4389-8e85-e6b4cd529dc6",
+一键连1️⃣=HTTPS,a1.ap.fastqvpn.com,29980, 364216401616961536,"5b402d6c-64b6-4cb7-9f4a-c8ae58ad1642",
+一键连2️⃣=HTTPS,a2.ap.fastqvpn.com,29980, 364216401616961536,"5b402d6c-64b6-4cb7-9f4a-c8ae58ad1642",
+一键连3️⃣=HTTPS,a3.ap.fastqvpn.com,29980, 364216401616961536,"5b402d6c-64b6-4cb7-9f4a-c8ae58ad1642",
+一键连4️⃣=HTTPS,a4.ap.fastqvpn.com,29980, 364216401616961536,"5b402d6c-64b6-4cb7-9f4a-c8ae58ad1642",
