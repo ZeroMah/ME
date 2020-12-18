@@ -1,9 +1,9 @@
 {
-  "id": "whyour.app.sub",
-  "name": "whyour应用订阅",
+  "id": "zeromah.app.sub",
+  "name": "zeromah应用订阅",
   "author": "@whyour",
-  "icon": "https://avatars2.githubusercontent.com/u/22700758?s=88&u=26d911ccb8345dac955238c2ed6c572892ef924a&v=4",
-  "repo": "https://github.com/whyour/hundun",
+  "icon": "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",
+  "repo": "https://github.com/zeromah/ME",
   "apps": [
     {
       "id": "shareCode",
