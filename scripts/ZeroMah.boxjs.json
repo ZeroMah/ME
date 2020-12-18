@@ -1,8 +1,8 @@
 {
-  "id": "zeromah.app.sub",
-  "name": "zeromah应用订阅",
-  "author": "@zeromah",
-  "icon": "https://avatars2.githubusercontent.com/u/22700758?s=88&u=26d911ccb8345dac955238c2ed6c572892ef924a&v=4",
+  "id": "ZeroMah.app.sub",
+  "name": "ZeroMah应用订阅",
+  "author": "@ZeroMah",
+  "icon": "",
   "repo": "https://github.com/zeromah/ME/scripts",
   "apps": [
     {
@@ -98,6 +98,6 @@
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
-      ]
+      }]
     }
 
