@@ -14,11 +14,13 @@
         "mc_shareCode1",
         "dd_shareCode1",
         "jx_shareCode1",
+        "zz_shareCode1",
         "zd_shareCode2",
         "nc_shareCode2",
         "mc_shareCode2",
         "dd_shareCode2",
-        "jx_shareCode2"
+        "jx_shareCode2",
+        "zz_shareCode2"
       ],
       "settings": [
         {
@@ -57,6 +59,13 @@
           "desc": "京喜工厂互助码.你自己的互助码."
         },
         {
+          "id": "zz_shareCode1",
+          "name": "京东赚赚互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "京东赚赚互助码.你自己的互助码."
+        },
+        {
           "id": "zd_shareCode2",
           "name": "种豆得豆互助码2",
           "val": "",
@@ -90,6 +99,13 @@
           "val": "",
           "type": "text",
           "desc": "京喜工厂互助码.你自己的互助码."
+        }
+        {
+          "id": "zz_shareCode1",
+          "name": "京东赚赚互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "京东赚赚互助码.你自己的互助码."
         }
       ],
       "author": "@whyour",
