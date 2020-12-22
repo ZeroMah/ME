@@ -108,9 +108,9 @@
           "desc": "京东赚赚互助码.你自己的互助码."
         }
       ],
-      "author": "@whyour",
-      "repo": "https://github.com/whyour/hundun/blob/master/quanx/shareCode-auto.js",
-      "script": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js",
+      "author": "@ZeroMah",
+      "repo": "https://github.com/ZeroMah/ME/blob/main/scripts/JD_sharecar.js",
+      "script": "https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/JD_sharecar.js",
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
