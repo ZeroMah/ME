@@ -3,7 +3,7 @@
   "name": "自用应用订阅",
   "author": "@whyour",
   "icon": "",
-  "repo": "https://github.com/whyour/hundun",
+  "repo": "https://github.com/ZeroMah/ME/tree/main/scripts",
   "apps": [
     {
       "id": "shareCode",
