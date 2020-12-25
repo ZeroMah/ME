@@ -14,6 +14,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5m9cZ2T_i3RMnLZOOABUshU",
     jxgc: $.getdata("jx_shareCode1") || "JUlrO5WtQevct_BTZpS_Kw==",
     jdzz: $.getdata("zz_shareCode1") || "S5KkcRBlP_VLeIk6nl_MDJg",
+    fg: $.getdata("fg_shareCode1") || "xx-TNnXO2qXRgmZM1W2SsKt9zd5YaBeE",
   },
   {
     zd: $.getdata("zd_shareCode2") || "7y5oh2a2gt7hbfgrio27ygjjzq",
@@ -22,6 +23,7 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5mRWVjG7mBMZxg",
     jxgc: $.getdata("jx_shareCode2") || "evlYVV7-MOIBKOMaZd3_eg==",
     jdzz: $.getdata("zz_shareCode2") || "S76MtEV1cmgeE",
+    fg: $.getdata("fg_shareCode2") || "o3AGv8PYoZwQbH6axZkUkQ==",
   },
 ];
 $.result = [];
@@ -30,7 +32,7 @@ $.random = Math.floor(Math.random() * 60);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc,jdzz, } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc,jdzz,fg, } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -66,6 +68,12 @@ $.random = Math.floor(Math.random() * 60);
       (await create(
         `https://code.chiang.fun/api/v1/jd/jdzz/create/${jdzz}/`,
         "京东赚赚" 
+      ));
+    await $.wait($.random);  
+    fg &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/${fg}/`,
+        "京东疯狗"   
       ));
   }
   await showMsg();
