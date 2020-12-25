@@ -27,7 +27,7 @@ const shareCodes = [
   },
 ];
 $.result = [];
-$.random = Math.floor(Math.random() * 60);
+$.random = Math.floor(Math.random() * 30);
 
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
