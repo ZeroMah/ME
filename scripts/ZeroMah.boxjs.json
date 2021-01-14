@@ -16,13 +16,15 @@
         "jx_shareCode1",
         "zz_shareCode1",
         "fg_shareCode1",
+        "lxj_shareCode1",
         "zd_shareCode2",
         "nc_shareCode2",
         "mc_shareCode2",
         "dd_shareCode2",
         "jx_shareCode2",
         "zz_shareCode2",
-        "fg_shareCode2"
+        "fg_shareCode2",
+        "lxj_shareCode2"
       ],
       "settings": [
         {
@@ -75,6 +77,13 @@
           "desc": "京东疯狗互助码.你自己的互助码."
         },
         {
+          "id": "lxj_shareCode1",
+          "name": "京东领现金互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "京东领现金互助码.你自己的互助码."
+        },
+        {
           "id": "zd_shareCode2",
           "name": "种豆得豆互助码2",
           "val": "",
@@ -122,6 +131,13 @@
           "val": "",
           "type": "text",
           "desc": "京东疯狗互助码.你自己的互助码."
+        }
+                {
+          "id": "lxj_shareCode2",
+          "name": "京东领现金互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "京东领现金互助码.你自己的互助码."
         }
       ],
       "author": "@ZeroMah",
