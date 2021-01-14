@@ -3,7 +3,9 @@
  * @Github: https://github.com/whyour
  * @Date: 2020-11-20 10:42:06
  * @LastEditors: ZeroMah
- * @LastEditTime: 2020年12月22日11:51:00
+ * @LastEditTime: 2021年1月14日11:55:37
+ * 一键获取所有互助码脚本 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_get_share_code.js
+ * 互助码填入boxjs中的订阅 https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/ZeroMah.boxjs.json
 */ 
 const $ = new Env("互助码");
 const shareCodes = [
@@ -15,6 +17,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode1") || "JUlrO5WtQevct_BTZpS_Kw==",
     jdzz: $.getdata("zz_shareCode1") || "S5KkcRBlP_VLeIk6nl_MDJg",
     fg: $.getdata("fg_shareCode1") || "xx-TNnXO2qXRgmZM1W2SsKt9zd5YaBeE",
+    lxj: $.getdata("lxj_shareCode2") || "",
   },
   {
     zd: $.getdata("zd_shareCode2") || "7y5oh2a2gt7hbfgrio27ygjjzq",
@@ -24,6 +27,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode2") || "evlYVV7-MOIBKOMaZd3_eg==",
     jdzz: $.getdata("zz_shareCode2") || "S76MtEV1cmgeE",
     fg: $.getdata("fg_shareCode2") || "o3AGv8PYoZwQbH6axZkUkQ==",
+    lxj: $.getdata("lxj_shareCode2") || "",
   },
 ];
 $.result = [];
@@ -32,7 +36,7 @@ $.random = Math.floor(Math.random() * 30);
 !(async () => {
   console.log(`\n此脚本延迟${$.random}秒执行\n`);
   for (let i = 0; i < shareCodes.length; i++) {
-    const { zd, nc, mc, ddgc, jxgc,jdzz,fg, } = shareCodes[i];
+    const { zd, nc, mc, ddgc, jxgc, jdzz,fg, lxj, } = shareCodes[i];
     await $.wait($.random);
     zd &&
       (await create(
@@ -74,6 +78,12 @@ $.random = Math.floor(Math.random() * 30);
       (await create(
         `https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/${fg}/`,
         "京东疯狗"   
+      ));
+    await $.wait($.random);  
+    fg &&
+      (await create(
+        `https://code.chiang.fun/api/v1/jd/jdcash/create/${lxj}/`,
+        "京东领现金"   
       ));
   }
   await showMsg();
