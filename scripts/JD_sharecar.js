@@ -17,7 +17,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode1") || "JUlrO5WtQevct_BTZpS_Kw==",
     jdzz: $.getdata("zz_shareCode1") || "S5KkcRBlP_VLeIk6nl_MDJg",
     fg: $.getdata("fg_shareCode1") || "xx-TNnXO2qXRgmZM1W2SsKt9zd5YaBeE",
-    lxj: $.getdata("lxj_shareCode2") || "",
+    lxj: $.getdata("lxj_shareCode1") || "eU9YaOvkbvov8zqGyHcahA",
   },
   {
     zd: $.getdata("zd_shareCode2") || "7y5oh2a2gt7hbfgrio27ygjjzq",
@@ -27,7 +27,7 @@ const shareCodes = [
     jxgc: $.getdata("jx_shareCode2") || "evlYVV7-MOIBKOMaZd3_eg==",
     jdzz: $.getdata("zz_shareCode2") || "S76MtEV1cmgeE",
     fg: $.getdata("fg_shareCode2") || "o3AGv8PYoZwQbH6axZkUkQ==",
-    lxj: $.getdata("lxj_shareCode2") || "",
+    lxj: $.getdata("lxj_shareCode2") || "ckVpPa_3Ca91",
   },
 ];
 $.result = [];
