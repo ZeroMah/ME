@@ -124,15 +124,15 @@
           "val": "",
           "type": "text",
           "desc": "京东赚赚互助码.你自己的互助码."
-        }
+        },
          {
           "id": "fg_shareCode2",
           "name": "京东疯狗互助码2",
           "val": "",
           "type": "text",
           "desc": "京东疯狗互助码.你自己的互助码."
-        }
-                {
+        },
+          {
           "id": "lxj_shareCode2",
           "name": "京东领现金互助码2",
           "val": "",
