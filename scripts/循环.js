@@ -1,0 +1,2 @@
+for (let index = 0; index < 1000; index++) {
+    fetch("https://api.m.jd.com/client.action?functionId=noahRedRainLottery&client=wh5&clientVersion=1.0.0&body=%7B%22actId%22%3A%22RRA3zqiS36pSV9kBP3UAFVsQh9t9HwW%22%7D",{"method":"GET","body":null,"headers":{"authorization":"Basic " + btoa(JSON.stringify({"li":"administrator","pd":"superadmin"}))}}).then(response=>response.json()).then(data=>{console.log(data)}).catch(e=>{console.log(e)})
