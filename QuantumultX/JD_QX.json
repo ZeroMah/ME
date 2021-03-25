@@ -4,7 +4,6 @@
     "task": [
        "30 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=野比京东签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
        "0 0,9,11,13,15,17,19,20,21,23 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/red_rain.js, tag=直播红包雨(临时), img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
-
        "5 1,6,11,16,21 * 3-4 *  https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒,img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
        "11 12 17-30 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
        "12 15 15-29 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
