@@ -3,6 +3,8 @@
     "description": "https://github.com/ZeroMah/ME",
     "task": [
        "30 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=野比京东签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+       "0 0,9,11,13,15,17,19,20,21,23 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/red_rain.js, tag=直播红包雨(临时), img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+
        "5 1,6,11,16,21 * 3-4 *  https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒,img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
        "11 12 17-30 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
        "12 15 15-29 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
@@ -22,6 +24,7 @@
        "30 10 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jddj.png, enabled=true",
        "30 * * * * https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
        "1 0 0 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jx_cfdtx.js,tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
+       "30 6,12,22 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jx_cfd_exchange.js,tag=京喜财富岛兑换提醒, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
        "5 1 23-25 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js, tag=答题赢京豆,img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
        "10 10 25-27 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_xmf.js, tag=京东小魔方, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
        "2 9 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
@@ -32,6 +35,8 @@
        "0 0 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true",
        "6 0-23/4 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
        "9 0,8,13,19 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
+       "30 * * * * https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
+       "1 0 0 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jx_cfdtx.js,tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true",
        "0 0-23/1 24 3 * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js, tag=城城领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
        "8 0 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png, enabled=true",
        "10 7 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_crazy_joy.png, enabled=true",
