@@ -11,22 +11,22 @@ let bodyList = {
   }
 }
 let ids = {
-  '8': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '9': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '10': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '11': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '12': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '13': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '14': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '15': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '16': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '17': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '18': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '19': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '20': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '21': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '22': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '23': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK'
+  '8': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '9': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '10': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '11': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '12': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '13': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '14': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '15': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '16': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '17': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '18': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '19': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '20': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '21': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '22': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg',
+  '23': 'RRA4TaJjMkzXU1xEJbbtPXFXCDTajxg'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
