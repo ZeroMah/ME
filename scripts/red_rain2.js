@@ -22,11 +22,11 @@ let ids = {
   '16': 'RRAoH2AVrvfVHhGMrSuKSFVxqhVrxT',
   '17': 'RRAoH2AVrvfVHhGMrSuKSFVxqhVrxT',
   '18': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '19': 'RRA2VFFiPMXaspNre68GLyvRPU1vGxA',
-  '20': 'RRA2VFFiPMXaspNre68GLyvRPU1vGxA',
-  '21': 'RRA2VFFiPMXaspNre68GLyvRPU1vGxA',
-  '22': 'RRA2VFFiPMXaspNre68GLyvRPU1vGxA',
-  '23': 'RRA2VFFiPMXaspNre68GLyvRPU1vGxA'
+  '19': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '20': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '21': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '22': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '23': 'RRA4RhWMc159kA62qLbaEa88evE7owb'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
