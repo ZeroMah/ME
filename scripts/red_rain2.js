@@ -36,7 +36,7 @@ let ids = {
   '21': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
   '22': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
   '23': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2'
-}
+} 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
