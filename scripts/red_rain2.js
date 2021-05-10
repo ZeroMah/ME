@@ -2,7 +2,7 @@
 只能用一天。需每天寻找直播抓包
 1 8-23 * * * lxk0301_live_redrain.js
 */
-const $ = new Env('整点京豆雨');
+const $ = new Env('整点京豆雨1');
 let allMessage = '';
 let bodyList = {
   '20': {
@@ -20,22 +20,22 @@ let ids = {
   '5': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
   '6': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
   '7': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
-  '8': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
-  '9': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
-  '10': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
-  '11': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
-  '12': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
-  '13': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '14': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '15': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '16': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '17': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '18': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '19': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '20': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '21': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '22': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '23': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2'
+  '8': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '9': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '10': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '11': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '12': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '13': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '14': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '15': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '16': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '17': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '18': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '19': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '20': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '21': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '22': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '23': 'RRA4RhWMc159kA62qLbaEa88evE7owb'
 } 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
