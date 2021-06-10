@@ -6,6 +6,8 @@
        "0 0-18/6 1-20 4 * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jd_scripts/jd_carnivalcity.js, tag=京东手机狂欢城, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
        "30 20-23/1 * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
        "1 0-23/1 * * * https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+       "33 0,6-23/2 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jd_scripts/jd_zoo.js, tag=618动物联萌, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+       "0-59/30 * * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jd_scripts/jd_zooCollect.js, tag=618动物联萌收集金币, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
        "15 9,20 * 5,6 * https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_newInteraction.js, tag=618大势新品赏,  enabled=true",
        "0 0 0 * * * https://raw.githubusercontent.com/ZeroMah/ME/main/scripts/jd_scripts/jd_xtg.js, tag=家电星推官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
        "20 9,20 * 5,6 * https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_superbox.js, tag=京东超级盒子,  enabled=true",
